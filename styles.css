@@ -60,10 +60,12 @@ header h1 {
 /*competitive audit styles*/
 
 table {
-    width: 100%;
+    width: 80%;
+    height: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     margin-left: 20px;
+    
 }
 
 .Header{
@@ -91,4 +93,20 @@ table th, table td {
 
 .red{
   background-color: rgb(255, 114, 114);
+}
+
+/*wireframe styles*/
+
+img.userFlow{
+  width: 500;
+
+}
+
+img.wireFrames{
+  width: 400;
+  height: 500;
+}
+
+img.keyScreens{
+  width: 400;
 }
