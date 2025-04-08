@@ -59,7 +59,7 @@ header h1 {
 
 /*competitive audit styles*/
 
-table {
+table.CAtable {
     width: 75%;
     height: 100%;
     border-collapse: collapse;
@@ -109,4 +109,44 @@ img.wireFrames{
 
 img.keyScreens{
   width: 400;
+}
+
+/* Prototype styles */
+
+img.prototypeScreens{
+  height: 500;
+
+}
+
+/*Usability test styles*/
+
+table.UTtable{
+  width: 100%;
+  border-collapse:collapse;
+}
+.UTheader{
+  color: white;
+  background: rgb(0, 110, 255);
+}
+.task{
+  font-weight: bold;
+}
+.cp{
+  font-weight: bold;
+  color: rgb(0, 145, 5);
+}
+.observation{
+  font-weight: bold;
+  color: red;
+}
+.quotes{
+  font-weight: bold;
+  color: orange;
+}
+.tc{
+  font-weight: bold;
+  color: rgb(0, 110, 255);
+}
+.collumns{
+  background-color: #d6d6d6;
 }
